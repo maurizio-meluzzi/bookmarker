@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Bookmarker",
+    "version": "0.0.1",
+    "description": "Adds the Bookmarker features to your broser.",
+    "permissions": ["tabs"],
+    "browser_action": {
+        "default_icon": {
+            "16": "img/buttons/menu-icon-16.png",
+            "32": "img/buttons/menu-icon-32.png"
+        },
+        "default_title": "Bookmarker"
+    },
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "48": "img/icons/bookmarker-app-48.png",
+        "96": "img/icons/bookmarker-app-96.png"
+    }
+}
